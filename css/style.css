@@ -18,10 +18,16 @@ h1{
     margin-bottom: 1rem;
 }
 
+.hero-background{
+    background-image: url('../images/hero.jpeg');
+    background-size: cover;
+}
+
+
 .hero{
-    background: #000080;
-    padding: 15rem;
+    padding: 13.7rem;
     color: #FFFFFF;
+
 }
 
 .hero--text{
