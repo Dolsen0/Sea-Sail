@@ -88,14 +88,14 @@ h3{
     align-items: center;
     text-align: center;
     padding: 6.5rem 9.5rem;
-    color: #000080;
+    color: #FFFFFF;
     width: 70vw;
 }
 
 .benefits{
     padding: 8.7rem;
-    color: #FFFFFF;
-    background-color: #000080;
+    color: #000080;
+    background-color: #FFFFFF;
 }
 
 .benefits--list{
