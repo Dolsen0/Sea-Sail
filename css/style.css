@@ -25,7 +25,7 @@ h1{
 
 
 .hero{
-    padding: 13.7rem;
+    padding: 14.2rem;
     color: #FFFFFF;
 
 }
@@ -46,12 +46,23 @@ h1{
     color: #FFFFFF;
 }
 
-.about{
+#sub-heading{
     margin: 1rem;
     padding: 1rem;
 }
 
-.sub-heading{
-    font-size: 2rem;
-    margin-bottom: 1rem;
+.about{
+    padding: 5.0rem 9.5rem;
+    color: #000080;
+}
+
+.benefits{
+    padding: 8.7rem;
+    color: #FFFFFF;
+    background-color: #000080;
+}
+
+.benefits--text{
+    display:flex;
+    list-style: none;
 }
