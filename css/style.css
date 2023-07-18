@@ -13,6 +13,19 @@ body{
     color: #333;
 }
 
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
 h1{
     font-size: 3rem;
     margin-bottom: 1rem;
