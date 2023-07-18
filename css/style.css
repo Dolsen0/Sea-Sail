@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero{
+    background: #000080;
+    padding: 15rem;
+    color: #FFFFFF;
+}
+
+.hero--text{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.cta{
+    width: 4rem;
+    height: 2rem;
+    background: #FF7F50;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+
+.about{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.sub-heading{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
