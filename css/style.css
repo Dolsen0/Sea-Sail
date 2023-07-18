@@ -25,7 +25,7 @@ h1{
 
 
 .hero{
-    padding: 14.2rem;
+    padding: 11.2rem;
     color: #FFFFFF;
 
 }
@@ -60,6 +60,8 @@ h1{
     padding: 8.7rem;
     color: #FFFFFF;
     background-color: #000080;
+    background-image: url('../images/sail.webp');
+    background-size: cover;
 }
 
 .benefits--list{
@@ -71,4 +73,5 @@ h1{
 
 li{
     padding: .5rem;
+    background: hsla(0, 0%, 100%, .15);
 }
