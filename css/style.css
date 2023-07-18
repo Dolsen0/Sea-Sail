@@ -13,17 +13,26 @@ body{
     color: #333;
 }
 
+a{
+    text-decoration: none;
+    color:#000080;
+}
+
 .navbar{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    position: sticky;
+}
+
+.navbar a:hover{
+    color: #FF7F50;
 }
 
 .nav-list{
     display: flex;
     justify-content: space-around;
     list-style: none;
+    
 }
 
 h1{
@@ -52,29 +61,41 @@ h1{
 .cta{
     width: 4rem;
     height: 2rem;
-    background: #FF7F50;
+    background: hsl(16.1,100%,65.7%);
     margin: 1rem;
     padding: 1rem;
     border-radius: 50px;
     color: #FFFFFF;
 }
 
-#sub-heading{
+.cta:hover{
+    background: hsl(16.1,100%,60.7%);
+}
+
+h3{
     margin: 1rem;
     padding: 1rem;
 }
+.about-background{
+    background-image: url('../images/sail.webp');
+    background-size: cover;
+}
 
 .about{
-    padding: 5.0rem 9.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 6.5rem 9.5rem;
     color: #000080;
+    width: 70vw;
 }
 
 .benefits{
     padding: 8.7rem;
     color: #FFFFFF;
     background-color: #000080;
-    background-image: url('../images/sail.webp');
-    background-size: cover;
 }
 
 .benefits--list{
