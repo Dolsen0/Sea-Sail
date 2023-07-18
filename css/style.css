@@ -105,7 +105,13 @@ h3{
     
 }
 
-li{
+.benefits--head{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.benefits--li{
     padding: .5rem;
+    margin: 1rem;
     background: hsla(0, 0%, 100%, .15);
 }
