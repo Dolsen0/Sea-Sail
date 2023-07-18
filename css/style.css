@@ -62,7 +62,13 @@ h1{
     background-color: #000080;
 }
 
-.benefits--text{
+.benefits--list{
     display:flex;
+    justify-content: space-between;
     list-style: none;
+    
+}
+
+li{
+    padding: .5rem;
 }
